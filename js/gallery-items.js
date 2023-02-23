@@ -1,7 +1,7 @@
 export const galleryItems = [
   {
     preview: "https://cdn.pixabay.com/photo/2020/05/19/14/41/sakura-5191070__340.jpg",
-    original: "https://cdn.pixabay.com/photo/2020/05/19/14/41/sakura-5191070__1280.jpg",
+    original: "https://cdn.pixabay.com/photo/2019/05/14/16/43/flower-4202825_1280.jpg",
     description: "Hokkaido Flower",
   },
   {

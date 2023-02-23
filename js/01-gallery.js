@@ -36,9 +36,3 @@ function showModal(event) {
   };
   galleryDiv.addEventListener("keydown", keydownListener);
 }
-
-// galleryDiv.addEventListener("keydown", event => {
-//   if (event.code === "Escape") {
-//     instance.close();
-//   }
-// });
