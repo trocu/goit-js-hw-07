@@ -11,15 +11,8 @@ const galleryMarkup = galleryItems
 
 galleryList.insertAdjacentHTML("afterbegin", galleryMarkup);
 
-galleryList.addEventListener("click", showModal);
-function showModal(event) {
-  event.preventDefault();
-  if (event.target.nodeName !== "IMG") {
-    return;
-  }
-  let lightbox = new SimpleLightbox(".gallery a", {
-    captions: true,
-    captionsData: "alt",
-    captionDelay: 250,
-  });
-}
+let lightbox = new SimpleLightbox(".gallery a", {
+  captions: true,
+  captionsData: "alt",
+  captionDelay: 250,
+});
